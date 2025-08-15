@@ -1,0 +1,3 @@
+AssetId,DeviceName,Role,Location,Owner,SerialNumber,PurchaseDate,WarrantyEnd,OS,CPU,RAM_GB,Storage,NetworkMACs,IP,InstalledSoftware,Notes,LastAuditDate
+,,Workstation,Home-Office,, ,,,Windows 11 Pro,AMD Ryzen 5 5600,32,"NVMe 1TB; SATA 2TB",,,"VSCode; Docker Desktop; Wireshark",,
+

@@ -1,0 +1,15 @@
+graph TD
+  "Internet" --> "WAN"
+  "WAN" --> "pfSense"
+  "pfSense" --> "VLAN10-User"
+  "pfSense" --> "VLAN20-Server"
+  "pfSense" --> "VLAN30-Lab"
+  "VLAN20-Server" --> "NAS(RAID)"
+  "VLAN20-Server" --> "DockerHost"
+  "DockerHost" --> "Grafana/Prometheus"
+  "DockerHost" --> "ELK"
+  "VLAN10-User" --> "ClientPC"
+  "VLAN30-Lab" --> "VM-1"
+  "VLAN30-Lab" --> "VM-2"
+
+
